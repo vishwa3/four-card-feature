@@ -128,8 +128,15 @@ body {
 
 @media (max-width: 770px) {
   .text-content {
-    width: 70%;
+    width: 22rem;
+    h1:nth-child(1) {
+      font-size: 28px;
+    }
+    h1:nth-child(2) {
+      font-size: 28px;
+    }
   }
+
   .cards-container {
     grid-template-columns: 1fr;
     row-gap: 1rem;
@@ -137,29 +144,5 @@ body {
       flex-direction: column;
       row-gap: 1rem;
     }
-  }
-}
-
-@media (max-width: 580px) {
-  .text-content {
-    width: 80%;
-  }
-}
-
-@media (max-width: 510px) {
-  .text-content {
-    width: 90%;
-  }
-}
-
-@media (max-width: 450px) {
-  .text-content {
-    width: 95%;
-  }
-}
-
-@media (max-width: 430px) {
-  .text-content {
-    width: 100%;
   }
 }
